@@ -1,2 +1,0 @@
-# HPTrivia-game
-haha
