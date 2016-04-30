@@ -342,7 +342,7 @@ $(document).ready(function() {
 
   function answerCheck5() {
     // If player gets question right...
-    if(playerAnswer5 === answer5) {
+    if((playerAnswer5 === answer5a) || (playerAnswer5 === answer5b)) {
       console.log("Player's answer is correct!");
       $('#correct-msg5').show().addClass('animated pulse');
       correctCounter++;
@@ -446,7 +446,7 @@ $(document).ready(function() {
 
   function answerCheck7() {
     // If player gets question right...
-    if(playerAnswer7 === answer7) {
+    if((playerAnswer7 === answer7a) || (playerAnswer7 === answer7b)) {
       console.log("Player's answer is correct!");
       $('#correct-msg7').show().addClass('animated pulse');
       correctCounter++;
