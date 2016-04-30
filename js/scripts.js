@@ -71,6 +71,10 @@ $(document).ready(function() {
       $('.question').detach();
       $('#lose-game-msg').show().addClass('animated wobble');
     };
+    $('#replay-btn').on('click', function() {
+      console.log('Do you want to replay this game?');
+      location.reload();
+    })
   };
 
   function WinMsg() {;
