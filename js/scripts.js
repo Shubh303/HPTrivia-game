@@ -197,6 +197,7 @@ $(document).ready(function() {
     	// If player gets question wrong...
       console.log("Player's answer is incorrect!");
       $('#incorrect-msg2').show().addClass('animated tada');
+      triesLeftCountdown();
       setTimeout(fadeOutAnswerCheckMsg2, 2500);
     }
   };
